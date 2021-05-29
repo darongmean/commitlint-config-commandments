@@ -15,3 +15,21 @@ Then for applying:
 ```bash
 echo "Docs: Update README" | commitlint
 ```
+
+## 10 Commandments
+
+```
+0. The git commit message shall not be empty
+1. Separate header from body, and body from footer with a blank line
+2. Limit the header to 72 characters
+3. Thou shalt not use any case but sentence case for the subject
+4. Thou shalt not end the subject with a period
+5. Thou shalt not use but the imperative mood in the subject
+6. Wrap the body and footer at 72 characters
+7. Use the body to explain what and why vs. how
+8. Use types for semantic versioning
+9. Use footer to connect to issues and designate breaking changes
+```
+
+See https://itnext.io/ten-commandments-of-git-commit-messages-94bd6dcf6e0e
+
